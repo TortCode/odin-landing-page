@@ -8,7 +8,11 @@ body {
 
 header {
   background-color: #1f2937;
-  padding: 20px 150px;
+  padding: 20px 200px;
+}
+
+header > div {
+  margin-bottom: 100px;
 }
 
 .navbar {
@@ -17,7 +21,7 @@ header {
   align-items: center;
 }
 
-ul.links {
+.links {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -28,12 +32,65 @@ ul.links {
 }
 
 .logo {
+  height: 40px;
   font-size: 24px;
   color: #f9faf8;
 }
 
-div.content {
+.content {
   flex: 1;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.hero > div {
+  flex: 1;
+}
+
+.hero .left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero .left h1 {
+  margin: 0;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero .left p {
+  margin: 0;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero .left button {
+  background-color: rgb(78, 128, 238);
+  color: #f9faf8;
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 10px 20px;
+  align-self: flex-start;
+}
+
+.hero .right .placeholder {
+  background-color: #999;
+  color: #ddd;
+  flex-shrink: 0;
+  height: 250px;
+  width: 500px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
