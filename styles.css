@@ -43,10 +43,6 @@ header > div {
   color: #f9faf8;
 }
 
-.content {
-  flex: 1;
-}
-
 .hero {
   display: flex;
   align-items: center;
@@ -92,6 +88,26 @@ header > div {
   flex-shrink: 0;
   height: 250px;
   width: 500px;
+}
+
+.content {
+  flex: 1;
+}
+
+.content .info {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.content .quote {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #e5e7eb;
+}
+
+.content .call {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .center {
