@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   min-height: 100vh;
   font-family: "Roboto", "Arial", sans-serif;
@@ -94,18 +98,53 @@ header > div {
   flex: 1;
 }
 
-.content .info {
+.info {
   padding-top: 50px;
   padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
-.content .quote {
+.info h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.media-list {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.media-item {
+  width: 170px;
+}
+
+.media-item .image {
+  border: 5px solid #3882F6;
+  border-radius: 15px;
+  height: 170px;
+  width: 170px;
+}
+
+.media-item .caption {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: hsl(220, 13%, 50%);
+}
+
+.quote {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #e5e7eb;
 }
 
-.content .call {
+.call {
   padding-top: 100px;
   padding-bottom: 100px;
 }
