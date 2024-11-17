@@ -172,6 +172,43 @@ header > div {
   padding-bottom: 100px;
 }
 
+.call-container {
+  padding: 50px 130px;
+  background-color: #3882F6;
+  color: #e5e7eb;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.call-container .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.call-container .left h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.call-container .left p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.call-container button {
+  background-color: inherit;
+  border: 2px solid #f9faf8;
+  border-radius: 5px;
+  color: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 40px;
+}
+
 .center {
   display: flex;
   justify-content: center;
@@ -181,9 +218,10 @@ header > div {
 footer {
   background-color: #1f2937;
   font-size: 18px;
+  font-weight: 300;
   color: #e5e7eb;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px 0;
+  padding: 50px 0;
 }
