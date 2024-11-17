@@ -139,9 +139,32 @@ header > div {
 }
 
 .quote {
+  display: flex;
+  justify-content: center;
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #e5e7eb;
+}
+
+.quote-container {
+  max-width: 790px;
+}
+
+.quote-text {
+  margin-bottom: 20px;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-author {
+  margin: 0;
+  padding: 0 20px;
+  text-align: right;
+  font-size: 24px;
+  color: #1f2937;
+  font-weight: 900;
 }
 
 .call {
